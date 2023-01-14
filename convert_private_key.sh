@@ -11,4 +11,4 @@ format_key="format-key"
 
 puttygen $key_file -O private-sshcom -o $new_key
 ssh-keygen -i -f $new_key > $format_key
-
+rm $new_key
